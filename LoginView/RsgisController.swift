@@ -18,7 +18,7 @@ class RsgisController: UIViewController {
         label.text = "注册页面"
         label.textAlignment = .center
         self.view.addSubview(label)
-        //
+        //添加返回按钮实现返回登录界面
         let btn = UIButton(type: .system)
         btn.frame = CGRect(x: screensize.width/2-50, y: 220, width: 100, height: 30)
         btn.setTitle("返回", for: .normal)

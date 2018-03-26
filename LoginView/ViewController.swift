@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         passwdText?.leftViewMode = .always
         self.view.addSubview(loginText!)
         self.view.addSubview(passwdText!)
-        //
+        //添加登录注册按钮
         let btn = UIButton(type: .system)
         btn.frame = CGRect(x: screensize.width/4-50, y: 180, width: 100, height: 30)
         btn.setTitle("登录", for: .normal)
