@@ -12,7 +12,7 @@
 		E9C98A1C20688EAA00863391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C98A1A20688EAA00863391 /* Main.storyboard */; };
 		E9C98A1E20688EAA00863391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C98A1D20688EAA00863391 /* Assets.xcassets */; };
 		E9C98A2120688EAA00863391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C98A1F20688EAA00863391 /* LaunchScreen.storyboard */; };
-		E9C98A2920688F2100863391 /* RsgisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C98A2820688F2100863391 /* RsgisController.swift */; };
+		E9C98A2B2068A27300863391 /* RegisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C98A2A2068A27300863391 /* RegisController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		E9C98A1D20688EAA00863391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C98A2020688EAA00863391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C98A2220688EAA00863391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9C98A2820688F2100863391 /* RsgisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RsgisController.swift; sourceTree = "<group>"; };
+		E9C98A2A2068A27300863391 /* RegisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				E9C98A1D20688EAA00863391 /* Assets.xcassets */,
 				E9C98A1F20688EAA00863391 /* LaunchScreen.storyboard */,
 				E9C98A2220688EAA00863391 /* Info.plist */,
-				E9C98A2820688F2100863391 /* RsgisController.swift */,
+				E9C98A2A2068A27300863391 /* RegisController.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C98A1920688EAA00863391 /* ViewController.swift in Sources */,
-				E9C98A2920688F2100863391 /* RsgisController.swift in Sources */,
+				E9C98A2B2068A27300863391 /* RegisController.swift in Sources */,
 				E9C98A1720688EAA00863391 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

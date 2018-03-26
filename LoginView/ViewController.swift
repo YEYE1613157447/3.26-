@@ -7,11 +7,11 @@
 //
 
 import UIKit
-
+let screensize = UIScreen.main.bounds.size
 class ViewController: UIViewController {
     var loginText:UITextField?
     var passwdText:UITextField?
-    let screensize = UIScreen.main.bounds.size
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loginText = UITextField(frame: CGRect(x: 20, y: 80, width: screensize.width-40, height: 30))
@@ -54,8 +54,8 @@ class ViewController: UIViewController {
     }
 
     func regis(){
-        let rsgisController = RsgisController()
-        self.present(rsgisController, animated: true, completion: nil)
+        let regisController = RegisController()
+        self.present(regisController, animated: true, completion: nil)
     }
     
     func login(){
